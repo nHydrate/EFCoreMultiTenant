@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configuration type="entity.staticdata" id="725913e3-30a9-4c76-ba55-46e764475ed7">
+		<data columnkey="78bee1bf-05a0-43cb-9377-3e96217788ba" value="1" orderkey="1" />
+		<data columnkey="cf21245e-a6e6-4f75-9af7-2d35a11ed86e" value="CSharp" orderkey="1" />
+		<data columnkey="78bee1bf-05a0-43cb-9377-3e96217788ba" value="2" orderkey="2" />
+		<data columnkey="cf21245e-a6e6-4f75-9af7-2d35a11ed86e" value="Java" orderkey="2" />
+		<data columnkey="78bee1bf-05a0-43cb-9377-3e96217788ba" value="3" orderkey="3" />
+		<data columnkey="cf21245e-a6e6-4f75-9af7-2d35a11ed86e" value="Python" orderkey="3" />
+</configuration>

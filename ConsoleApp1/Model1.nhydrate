@@ -1,0 +1,3 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nHydrateModel dslVersion="7.0.0.228" Id="7806e9fd-a366-4753-b122-4f7c0a05b85a" companyName="Acme" projectName="MultiTenant" modelToDisk="true" modelVersion="5.1.2.115" useGeneratedCRUD="false" diagramVisibility="Function, StoredProcedure, View">
+</nHydrateModel>

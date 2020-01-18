@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Acme.MultiTenant.Install": {
+      "commandName": "Project",
+      "commandLineArgs": "/create /newdb:MultiTenantTest /master:\"server=.;initial catalog=master;Integrated Security=SSPI;\" /connectionstring:\"server=.;initial catalog=MultiTenantTest;Integrated Security=SSPI;\""
+    }
+  }
+}

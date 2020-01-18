@@ -1,0 +1,32 @@
+DO NOT MODIFY THIS FILE. IT IS ALWAYS OVERWRITTEN ON GENERATION.
+Generation Details
+
+Version 0.0.0.0
+Table Count: 5
+Tenant Table Count: 2
+View Count: 0
+StoredProc Count: 0
+
+TABLE LIST
+Project, ColumnCount=3, IsTenant=True
+    Field: [Project].[Name], Field Length: 50, Not Nullable
+    Field: [Project].[ProjectId], Not Nullable, Primary Key, AutoNumber, Unique, Indexed
+    Field: [Project].[ProjectTypeId], Not Nullable
+ProjectFile, ColumnCount=3, IsTenant=True
+    Field: [ProjectFile].[FileName], Field Length: 450, Not Nullable
+    Field: [ProjectFile].[ProjectFileId], Not Nullable, Primary Key, AutoNumber, Unique, Indexed
+    Field: [ProjectFile].[ProjectId], Not Nullable
+ProjectType, ColumnCount=2, IsTenant=False
+    Field: [ProjectType].[Name], Field Length: 50, Not Nullable
+    Field: [ProjectType].[ProjectTypeId], Not Nullable, Primary Key, AutoNumber, Unique, Indexed
+TenantMaster, ColumnCount=4, IsTenant=False
+    Field: [TenantMaster].[DbPassword], Field Length: 200, Not Nullable
+    Field: [TenantMaster].[DbUserName], Field Length: 50, Not Nullable
+    Field: [TenantMaster].[TenantId], Not Nullable, Primary Key, AutoNumber, Unique, Indexed
+    Field: [TenantMaster].[TenantName], Field Length: 50, Not Nullable
+UserAccount, ColumnCount=4, IsTenant=False
+    Field: [UserAccount].[PasswordHash], Field Length: 50, Not Nullable
+    Field: [UserAccount].[TenantId], Not Nullable
+    Field: [UserAccount].[UserId], Not Nullable, Primary Key, AutoNumber, Unique, Indexed
+    Field: [UserAccount].[UserName], Field Length: 50, Not Nullable
+
